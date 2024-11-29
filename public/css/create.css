@@ -1,0 +1,88 @@
+body {
+    background-color: #101646;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #151738;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #f2e2a9;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6b3e26;
+    border-radius: 4px;
+    background-color: #f4e1d2; 
+    color: #2c1b2f;
+    box-sizing: border-box; 
+    font-size: 1em; 
+    height: 50px; /*Altura campo */
+}
+
+textarea {
+    height: 50px; /* Altura 2 */
+    resize: vertical; 
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #b38a3a; 
+    background-color: #fff3e6; 
+    outline: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-size: 1em; 
+}
+
+.btn-success {
+    background-color: #b38a3a; 
+}
+
+.btn-success:hover {
+    background-color: #d4af37;
+}
+
+.btn-secondary {
+    background-color: #4e3629;
+}
+
+.btn-secondary:hover {
+    background-color: #6b3e26;
+}
+
+h1 {
+    color: #f2e2a9;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
